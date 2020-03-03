@@ -12,6 +12,7 @@ namespace ClassLibrary1
     {
         [Key]
         public string PostId { get; set; }
+        [Required]
         public string Title { get; set; }
         public string Text { get; set; }
 
