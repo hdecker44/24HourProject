@@ -18,5 +18,6 @@ namespace ClassLibrary2
         [MinLength(1, ErrorMessage = "Please enter at least 1 character.")]
         [MaxLength(400, ErrorMessage = "There are too many characters.")]
         public string Text { get; set; }
+
     }
 }

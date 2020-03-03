@@ -15,5 +15,6 @@ namespace ClassLibrary1
         [ForeignKey(nameof(Post))]
         public string PostId { get; set; }
         public Post CommentPost { get; set; }
+
     }
 }
