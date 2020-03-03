@@ -94,6 +94,10 @@
     <Compile Include="Migrations\202003022142055_InitialMigration.designer.cs">
       <DependentUpon>202003022142055_InitialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003031816137_addedCommentsTable.cs" />
+    <Compile Include="Migrations\202003031816137_addedCommentsTable.designer.cs">
+      <DependentUpon>202003031816137_addedCommentsTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -107,6 +111,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202003022142055_InitialMigration.resx">
       <DependentUpon>202003022142055_InitialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003031816137_addedCommentsTable.resx">
+      <DependentUpon>202003031816137_addedCommentsTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

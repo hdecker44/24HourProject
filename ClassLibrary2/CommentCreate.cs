@@ -14,5 +14,8 @@ namespace ClassLibrary2
         [MaxLength(400, ErrorMessage = "There are too many characters.")]
         public string Text { get; set; }
 
+        [Required]
+        public string PostId { get; set; }
+
     }
 }
