@@ -9,6 +9,7 @@ namespace ClassLibrary1
 {
     public class User
     {
+        public static object Identity { get; set; }
         [Key]
         public Guid UserId { get; set; }
 
