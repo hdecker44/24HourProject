@@ -98,6 +98,10 @@
     <Compile Include="Migrations\202003031816137_addedCommentsTable.designer.cs">
       <DependentUpon>202003031816137_addedCommentsTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003031854032_addedLikeTable.cs" />
+    <Compile Include="Migrations\202003031854032_addedLikeTable.designer.cs">
+      <DependentUpon>202003031854032_addedLikeTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Post.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -114,6 +118,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003031816137_addedCommentsTable.resx">
       <DependentUpon>202003031816137_addedCommentsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003031854032_addedLikeTable.resx">
+      <DependentUpon>202003031854032_addedLikeTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
