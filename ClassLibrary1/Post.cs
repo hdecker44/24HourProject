@@ -12,11 +12,13 @@ namespace ClassLibrary1
     {
         [Key]
         public string PostId { get; set; }
+        [Required]
         public string Title { get; set; }
         public string Text { get; set; }
 
         [ForeignKey(nameof(Author))]
         public Guid? UserId { get; set; }
         public virtual User Author { get; set; }
+
     }
 }
