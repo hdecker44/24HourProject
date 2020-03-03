@@ -59,7 +59,6 @@
   <ItemGroup>
     <Compile Include="CommentCreate.cs" />
     <Compile Include="CommentDetails.cs" />
-
     <Compile Include="CommentListOfItems.cs" />
     <Compile Include="CreateLike.cs" />
     <Compile Include="PostCreate.cs" />
@@ -70,6 +69,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\24Hour.Data.csproj">
+      <Project>{4A0C8AB4-4AA7-4288-BB25-EFB92E992C5C}</Project>
+      <Name>24Hour.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
