@@ -63,5 +63,4 @@ namespace _24HourProject.Data
             HasKey(iur => iur.UserId);
         }
     }
-
 }
