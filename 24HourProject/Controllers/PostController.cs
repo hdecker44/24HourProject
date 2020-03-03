@@ -24,6 +24,7 @@ namespace _24HourProject.Controllers
             var postService = new PostService(userId);
             return postService;
         }
+
         public IHttpActionResult Post(PostCreate post)
         {
             if (!ModelState.IsValid)
